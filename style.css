@@ -8,6 +8,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #f8f9fa;
+  padding-top: 56px; /* Ensure content is not hidden under fixed navbar */
 }
 
 .navbar-nav {
@@ -103,5 +104,11 @@ p {
   }
   .container {
     max-width: 100%;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
+  .navbar-collapse {
+    justify-content: center;
   }
 }
